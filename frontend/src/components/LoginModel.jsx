@@ -3,7 +3,6 @@ import { AnimatePresence, motion } from "motion/react";
 import { signInWithPopup } from "firebase/auth";
 import { auth, provider } from "../firebase";
 import axios from "axios";
-import { serverUrl } from "../App.jsx";
 
 const LoginModel = ({ open, onClose }) => {
 
